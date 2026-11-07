@@ -1,0 +1,141 @@
+(footprint "MSS1P4-M3_89A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MicroSMP")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at -0.93 -1.214 0)
+		(layer "F.SilkS")
+		(uuid "1fac14b8-ab17-4504-9611-580843f930bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MSS1P4-M3_89A"
+		(at -0.93 -1.214 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d97a583f-89c4-4969-a8e1-82299d278374")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4953ec9-0c5f-4243-9339-229367b85bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4f22018-61ef-400b-a145-5073675d81b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.831 -0.026)
+		(end -1.831 -0.007)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2d12f79c-d056-4271-b945-e0eec2357f29")
+	)
+	(fp_line
+		(start -1.1 -0.65)
+		(end 1.1 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6710047-68ab-4735-bd69-5212386f382a")
+	)
+	(fp_line
+		(start -1.1 0.65)
+		(end -1.1 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89036a9e-d944-421e-815b-48aabea48e23")
+	)
+	(fp_line
+		(start 1.1 -0.65)
+		(end 1.1 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fd82bdd-1910-475a-92b2-b986104b4d35")
+	)
+	(fp_line
+		(start 1.1 0.65)
+		(end -1.1 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3289da3a-9fa3-4730-b3cc-da5ee4a89ca2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.93 -1.214 0)
+		(layer "F.Fab")
+		(uuid "5c53f387-f94f-4e7b-9c21-c5c544714480")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d78c9fd1-8cfb-482b-85e0-2195c4c58b12")
+	)
+	(pad "2" smd rect
+		(at 1.25 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "166ecc60-4245-4edc-bd1d-2def8acf64fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../lib/3dmodels/MSS1P4-M3_89A.stp"
+		(offset
+			(xyz 0.5199999731 0.2099999903 0.09000000222)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
